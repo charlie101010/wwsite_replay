@@ -1,0 +1,688 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>WingWarp</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.css" />
+
+  <!-- javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="dist/theme.min.js"></script>
+    <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '783932325067137');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=783932325067137&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+</head>
+<body>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 8]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" role="navigation">
+    <div class="container no-override">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/wwblack.png" class="d-none d-lg-inline mr-2 w-25" />
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse">
+        <ul class="navbar-nav" style="min-width: 700px">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="instantreplay.html" class="nav-link" style="color: #ff5723;">
+              Official Video Review
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="coaching.html" class="nav-link">
+              The Replay Cloud
+            </a>
+          <!--   <div class="dropdown-menu" role="menu">
+              <div class="dropdown dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                  Headers
+                  <i class="ion-chevron-right"></i>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="header-light.html">Light</a>
+                  <a class="dropdown-item" href="header-dark.html">Dark</a>
+                  <a class="dropdown-item" href="header-transparent-light.html">Transparent light</a>
+                  <a class="dropdown-item" href="header-transparent-dark.html">Transparent dark</a>
+                  <a class="dropdown-item" href="header-transparent-fixed-light.html">Transparent fixed light</a>
+                  <a class="dropdown-item" href="header-transparent-fixed-dark.html">Transparent fixed dark</a>
+                  <a class="dropdown-item" href="header-off-canvas-left.html">Sidebar left</a>
+                  <a class="dropdown-item" href="header-off-canvas-right.html">Sidebar right</a>
+                  <a class="dropdown-item" href="header-navleft.html">Navbar left</a>
+                  <a class="dropdown-item" href="header-dark-submenu.html">Dark submenu</a>
+                  <a class="dropdown-item" href="header-fixed-bottom.html">Bottom fixed</a>
+                  <a class="dropdown-item" href="header-logo-center.html">Logo center</a>
+                  <a class="dropdown-item" href="header-all-center.html">All center</a>
+                  <a class="dropdown-item" href="header-full-width.html">Full width</a>
+                </div>
+              </div>
+              <div class="dropdown dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                  Footers
+                  <i class="ion-chevron-right"></i>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="header-light.html#footer">Dark</a>
+                  <a class="dropdown-item" href="footer-light.html#footer">Light</a>
+                  <a class="dropdown-item" href="footer-big-menu.html#footer">Big Menu</a>
+                  <a class="dropdown-item" href="footer-sign-up.html#footer">Sign up</a>
+                  <a class="dropdown-item" href="footer-agency.html#footer">Agency</a>
+                </div>
+              </div>
+              <div class="dropdown dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#" data-toggle="dropdown">
+                  Email templates
+                  <i class="ion-chevron-right"></i>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="email-template-newsletter.html" target="_blank">
+                    Newsletter
+                    <i class="ion-share"></i>
+                  </a>
+                  <a class="dropdown-item" href="email-template-receipt.html" target="_blank">
+                    Receipt
+                    <i class="ion-share"></i>
+                  </a>
+                  <a class="dropdown-item" href="email-template-announcement.html" target="_blank">
+                    Simple announcement
+                    <i class="ion-share"></i>
+                  </a>
+                  <a class="dropdown-item" href="email-template-text.html" target="_blank">
+                    Formal text
+                    <i class="ion-share"></i>
+                  </a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="docs/grid-system.html">Grid system</a>
+              <a class="dropdown-item" href="docs/animations.html">Animations</a>
+              <a class="dropdown-item" href="docs/typography.html">Typography</a> -->
+           <!--  </div>
+ -->          </li>
+             <!--  <li class="nav-item">
+                <a href="contact.html" class="nav-link">
+                Blog
+                </a>
+            </li> -->
+         <!--  <li class="nav-item dropdown dropdown-extend">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Components
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-extend-menu" role="menu">
+              <div class="row">
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/alerts.html"><i class="ion-alert-circled"></i> Alerts</a>
+                  <a class="dropdown-item" href="docs/animations.html"><i class="ion-wand"></i> Animations</a>
+                  <a class="dropdown-item" href="docs/badges.html"><i class="ion-ios-pricetag-outline"></i> Badges</a>
+                  <a class="dropdown-item" href="docs/buttons.html"><i class="ion-ios-paperplane"></i> Buttons</a>
+                  <a class="dropdown-item" href="docs/button-groups.html"><i class="ion-ios-browsers"></i> Button groups</a>
+                  <a class="dropdown-item" href="docs/cards.html"><i class="ion-ios-albums-outline"></i> Cards</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/carousel.html"><i class="ion-android-arrow-dropright-circle"></i> Carousel</a>
+                  <a class="dropdown-item" href="docs/accordion.html"><i class="ion-navicon"></i> Accordion</a>
+                  <a class="dropdown-item" href="docs/cta.html"><i class="ion-funnel"></i> Call to action</a>
+                  <a class="dropdown-item" href="docs/dropdowns.html"><i class="ion-arrow-down-b"></i> Dropdowns</a>
+                  <a class="dropdown-item" href="docs/forms.html"><i class="ion-clipboard"></i> Forms</a>
+                  <a class="dropdown-item" href="docs/input-groups.html"><i class="ion-toggle"></i> Input groups</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/icons.html"><i class="ion-social-octocat"></i> Icons</a>
+                  <a class="dropdown-item" href="docs/list-groups.html"><i class="ion-ios-list-outline"></i> List groups</a>
+                  <a class="dropdown-item" href="docs/modals.html"><i class="ion-monitor"></i> Modals</a>
+                  <a class="dropdown-item" href="docs/navs.html"><i class="ion-navigate"></i> Navs</a>
+                  <a class="dropdown-item" href="docs/navbars.html"><i class="ion-navicon-round"></i> Navbars</a>
+                  <a class="dropdown-item" href="docs/plugins.html"><i class="ion-compose"></i> New plugins</a>
+                </div>
+                <div class="col-md-3">
+                  <a class="dropdown-item" href="docs/progress.html"><i class="ion-stats-bars d-inline-block" style="transform: rotate(90deg);"></i> Progress bars</a>
+                  <a class="dropdown-item" href="docs/stats-cards.html"><i class="ion-arrow-graph-up-right"></i> Stats cards</a>
+                  <a class="dropdown-item" href="docs/tables.html"><i class="ion-grid"></i> Tables</a>
+                  <a class="dropdown-item" href="docs/typography.html"><i class="ion-paintbrush"></i> Typography</a>
+                </div>
+              </div>
+            </div>
+          </li> -->
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact Us
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="index-mobile-header">
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1>
+          The Next Generation of Instant Replay Software for Officials
+          </h1>
+          <p>
+            Our solution makes multicamera HD instant replay
+            <br />
+            affordable enough for every school in the country.
+          </p>
+          <div class="actions customFadeInUp">
+            <a href="contact.html" class="btn-pill btn-pill-primary btn-pill-lg">Request a demo</a>
+          </div>
+          
+        </div>
+       <!--  <div class="col-lg-5">
+          <img src="images/devices/iphone-8.png" class="mobile-pic d-none d-lg-block customFadeInDown" />
+        </div> -->
+      </div>
+    </section>
+  </div>
+
+  <div class="index-clients">
+    <div class="container">
+      <header>
+        <h4>A Few of Our DI and DII NCAA Partners</h4>
+      </header>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/pl.png">
+        </div>
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/nec.png">
+        </div>
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/lone.png">
+        </div>
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/asun2.png">
+        </div>
+      <!--   <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/shu.png">
+        </div>
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/fdu.png">
+        </div>
+        <div class="col-12 col-md-3 col-lg">
+          <img class="img-fluid mb-4" src="images/logos/stf.png">
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+     <div id="camera" class="index-features-camera">
+    <section>
+      <h3>WingWarp Replay at a Glance.</h3>
+     <!--  <h4>
+        Apply filters to your pictures, change settings and tag all your friends
+      </h4> -->
+      <div class="pic" style="margin-bottom: 60px">
+        <iframe width="853" height="505" src="https://www.youtube.com/embed/Ax8r4JEKrGk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+    </section>
+  </div>
+
+
+ 
+
+  <div class="index-intro">
+    <div class="container">
+      <header>
+        <h3>Instant Replay Is Our DNA</h3>
+        <p>
+          On December 7th, 1963, instant replay revolutionized sports on television. Now its time for the rest of the sporting world. WingWarp launched based on the simple assumption that providing world class instant replay technology is not only the difference in fan viewing experience, but also in the quality of officiating and integrity of sportingcompetition.
+        </p>
+      </header>
+      <section class="row">
+        <div class="col-md-6">
+          <h4>Elevated Standards</h4>
+          <p>
+            The NFL set the standard for high quality instant replay.  WingWarp gives you the opportunity to bring your game day standards up to that level.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h4>Better Outcomes</h4>
+          <p>
+            Eliminate controversy. Empower your officials to make the right calls all the time without any second thoughts. 
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="agency-portfolio-hero">
+    <section class="container">
+      <h1>
+       Replay Features at a Glance
+      </h1>
+      <p>
+        We provide the most robust replay system on the market.
+      </p>
+    </section>
+  </div>
+
+  <div class="agency-portfolio-gallery">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Comprehensive Coverage</h3>
+                <p>
+                With up to 12 cameras surrounding the competition, officials have multiple angles to review every play in high definition. Connect broadcast cameras and increase coverage with WingWarp cameras which are remote-controlled.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/comprehensive.png');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Inexpensive installation</h3>
+                <p>
+                  Installation takes less than one day. Our wireless connections eliminate long, expensive cable runs. If the arena is already wired, our cameras can connect directly to the network. Schools can mount these cameras on existing poles, rails, walls, ceilings and rafters.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/shot-3.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Simple game-day setup</h3>
+                <p>
+                  1 Plugin Macbook Pro, 2 connect broadcast cameras to network equipment, 3 open instant replay app.  Start game.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/gameday.png');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Easy to use/Training</h3>
+                <p>
+                  The system is easy to learn. We recommend that you train several people to use the system at each school.  The app clearly shows camera positions and quickly pulls up different views.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/unsplash/photo-1474843148229-3163319fcc4c.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Fast Access</h3>
+                <p>
+                  Built for speed. The replay app can jump anywhere in the game.  The app clearly labels available cameras and quickly rewinds/fast forwards through video.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/unsplash/photo-1470274038469-958113db2384.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Zoom</h3>
+                <p>
+                 Zoom-in on the play using MacBook’s pinch gesture.
+                </p>
+              </span>
+             <!--  <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/zoom.png');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Synchronized playback</h3>
+                <p>
+                 All video views move in concert.  Every angle always shows the same moment in time.  Simply switch between views to see other angles or watch up to four angles simultaneously.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/sync.png');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Scoreboard Reader</h3>
+                <p>
+                  The replay app connects to and reads data from scoreboard controllers. It annotates the video with scores and times.  Supported scoreboards: Daktronics All Sports (serial), Eversan (serial), OES (serial), Nevco (wireless).  Connections for other scoreboards may require purchase from 3rd party vendor.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/score.png');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>StatCrew Connect</h3>
+                <p>
+                  The replay app also connects to StatCrew to record penalty and game statistics automatically. Minimizing data usually recorded by replay technicians.
+                </p>
+              </span>
+             <!--  <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/unsplash/photo-1444210971048-6130cf0c46cf.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Play marking</h3>
+                <p>
+                  The user of the replay app can mark important times in the video and detail all reviews.  The app keeps a list of all the marks/annotations and the user always can jump back to see them again.
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/shot-2.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Real-time review emails</h3>
+                <p>
+                  Immediately after a video review, an email is sent out to designated conference staff and coordinator with information about the play, whether the call was overturned and video from all the camera angles (with the reviewed angles highlighted).
+                </p>
+              </span>
+              <!-- <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/unsplash/photo-1472132858735-6313c7962473.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a href="agency-project.html" class="project">
+            <span class="mask">
+              <span class="info">
+                <h3>Web site and archive</h3>
+                <p>
+                  After each game, all videos and marks/annotations are uploaded to WingWarp’s website.  Users can review the entire game or specific plays.  Officials’ coordinators can use this website to document refereeing mechanics and train referees.
+                </p>
+              </span>
+           <!--    <span class="btn-see-project">
+                See project
+              </span> -->
+            </span>
+            <span style="background-image:url('images/project/shot-4.jpg');" class="pic">
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
+  <div class="index-mobile-features">
+    <div class="container">
+      <header>
+        <h3>
+          Want WingWarp Replay?
+        </h3>
+        <p>
+          We offer multiple options to meet the needs of any budget.
+        </p>
+      </header>
+      <div class="features clearfix">
+        <div class="feature">
+          <div class="pic">
+            <img src="images/icons/outline-camera.png" class="icon-camera" />
+          </div>
+          <p>
+            Standard
+          </p>
+        </div>
+        <div class="feature">
+          <div class="pic">
+            <img src="images/icons/outline-user.png" class="icon-user" />
+          </div>
+          <p>
+            Enhanced Coverage
+          </p>
+        </div>
+        <div class="feature">
+          <div class="pic">
+            <img src="images/icons/outline-cloud.png" class="icon-cloud" />
+          </div>
+          <p>
+            Professional Grade
+          </p>
+        </div>
+        <div class="feature">
+          <div class="pic">
+            <img src="images/icons/outline-mail.png" class="icon-mail" />
+          </div>
+          <p>
+            Multi-Sport
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="index-mobile-devices">
+    <section class="clearfix">
+      <img src="images/devices/laptop.jpeg" class="devices float-right" />
+
+
+      <p><i>
+        "I’m not the most technical person but found the system to be user friendly and getting more user friendly as we go....The replay system has been a major success with basketball and we’re looking forward to working with it this fall in football as well."
+      </i></p>
+      <h4>John Beisser, Assistant Athletic Director of Media Relations, Wagner College</h4>
+      
+     <!--  <div class="icons">
+        <i class="ion-monitor"></i>
+        <i class="ion-ipad"></i>
+        <i class="ion-iphone"></i>
+      </div> -->
+    </section>
+  </div>
+
+<!--   <div class="index-mobile-call-to-action">
+    <div class="container">
+      <img src="images/devices/iphone-16.png" class="device d-none d-md-inline" />
+
+      <div class="info">
+        <h3>
+          All the interfaces that you wanted
+          now at your hands - get it now!
+        </h3>
+        <p>
+          Spacial is designed to make showing off your best projects extremely fast and simple. There are many ways to configure. Make changes and the rest is taken care.
+        </p>
+        <div class="cta">
+          <a href="#">
+            <img src="images/buttons/btn-appstore-white.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ -->
+ 
+  <footer class="footer-big-menu" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="cta text-center">
+            <h1 class="cta-title">
+              Want To Learn More About WingWarp?
+            </h1>
+            <a class="btn-shadow btn-shadow-info mr-md-1" href="contact.html">
+              Request a demo
+            </a>
+            <a class="btn-outline ml-md-1" href="contact.html">
+              Contact us
+            </a>
+          </div>
+        </div>
+      </div>
+    <!--   <div class="row menu">
+        <div class="col-md-3 col-lg-2">
+          <h3 class="menu-title">Products</h3>
+          <a class="menu-link" href="index.html">Livestreaming</a>
+          <a class="menu-link" href="instantreplay.html">Instant Replay</a>
+          <a class="menu-link" href="coaching.html">Spacial Security</a>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <h3 class="menu-title">Features</h3>
+          <a class="menu-link" href="#">Employees</a>
+          <a class="menu-link" href="#">Integrations</a>
+          <a class="menu-link" href="#">Subscriptions</a>
+          <a class="menu-link" href="#">Online payments</a>
+          <a class="menu-link" href="#">Antifraud system</a>
+          <a class="menu-link" href="#">Pricing</a>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <h3 class="menu-title">Resources</h3>
+          <a class="menu-link" href="#">Support center</a>
+          <a class="menu-link" href="#">Documentation</a>
+          <a class="menu-link" href="#">API reference</a>
+          <a class="menu-link" href="#">Customer stories</a>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <h3 class="menu-title">About</h3>
+          <a class="menu-link" href="#">What we believe</a>
+          <a class="menu-link" href="#">Careers</a>
+          <a class="menu-link" href="#">Partners</a>
+          <a class="menu-link" href="#">Press kit</a>
+          <a class="menu-link" href="#">Media</a>
+        </div>
+        <div class="col-md-3 col-lg-2">
+          <h3 class="menu-title">Get in touch</h3>
+          <a class="menu-link" href="#">support@wingwarp.net</a>
+          <a class="menu-link" href="#">(310) 488-9086</a>
+          <a class="menu-link" href="#">9am - 6pm PST</a>
+        </div>
+        <div class="col-md-3 col-lg-2 text-center">
+          <a class="social-link" href="https://twitter.com/WingWarpReplay">
+            <i class="ion-social-twitter"></i>
+          </a>
+          <a class="social-link" href="#">
+            <i class="ion-social-facebook"></i>
+          </a>
+          <a class="social-link" href="#">
+            <i class="ion-social-instagram"></i>
+          </a>
+        </div> -->
+      <!-- </div> -->
+    </div>
+    <span class="bottom">© 2017 WingWarp Inc. All rights reserved. <a href="#">Terms of use</a></span>
+  </footer>
+  <script type="text/javascript">
+    $(".rotate").textrotator({
+      animation: "flipCubeUp", // dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+      separator: ",",
+      speed: 2000
+    });
+  </script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    // (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    // function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    // e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    // e.src='//www.google-analytics.com/analytics.js';
+    // r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    // ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+</body>
+</html>
